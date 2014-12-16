@@ -1,4 +1,4 @@
-menu-position/*--------------------------
+/*--------------------------
 ---------- GENERAL ---------
 --------------------------*/
 html, body {
@@ -322,72 +322,86 @@ margin-right: 5px;
 .flaticon-aries6:before {
   content: "\e001";
 }
-.flaticon-cancer8:before {
+.flaticon-black218:before {
   content: "\e002";
 }
-.flaticon-capricorn3:before {
+.flaticon-cancer8:before {
   content: "\e003";
 }
-.flaticon-flag42:before {
+.flaticon-capricorn3:before {
   content: "\e004";
 }
-.flaticon-gemini5:before {
+.flaticon-flag42:before {
   content: "\e005";
 }
-.flaticon-leo6:before {
+.flaticon-gemini5:before {
   content: "\e006";
 }
-.flaticon-libra7:before {
+.flaticon-leo6:before {
   content: "\e007";
 }
-.flaticon-pisces3:before {
+.flaticon-libra7:before {
   content: "\e008";
 }
-.flaticon-rocket61:before {
+.flaticon-pin56:before {
   content: "\e009";
+}
+.flaticon-pisces3:before {
+  content: "\e00a";
+}
+.flaticon-rocket61:before {
+  content: "\e00b";
   margin-left: 5px;
 }
 .flaticon-sagittarius5:before {
-  content: "\e00a";
-}
-.flaticon-saturn1:before {
-  content: "\e00b";
-}
-.flaticon-scorpion3:before {
   content: "\e00c";
 }
-.flaticon-space19:before {
+.flaticon-saturn1:before {
   content: "\e00d";
 }
-.flaticon-space26:before {
+.flaticon-scorpion3:before {
   content: "\e00e";
 }
-.flaticon-sun52:before {
+.flaticon-send4:before {
   content: "\e00f";
 }
-.flaticon-taurus8:before {
+.flaticon-space19:before {
   content: "\e010";
 }
-
-.flaticon-virgo5:before {
+.flaticon-space26:before {
   content: "\e011";
 }
+.flaticon-sun52:before {
+  content: "\e012";
+}
+.flaticon-taurus8:before {
+  content: "\e013";
+}
+.flaticon-virgo5:before {
+  content: "\e014";
+}
 
+.flaticon-black218:before, .flaticon-pin56:before {
+font-size: 1.2em;
+position: relative;
+top: 1px;
+}
 /*--------------------------
 -------- NAVIGATION ---------
 --------------------------*/
-
-.not-visible-nav{
-  top:-100px;
-}
-
 ul.nav.navbar-nav {
   padding-top: 25px;
 }
 
 .not-visible-nav{
-  top:-77px;
-  }
+  top:-102px;
+}
+
+.navbar {
+   -webkit-transition: all .5s;
+  -moz-transition: all .5s;
+  transition: all .5s;
+}
 
 .menu-position{ 
   width: 95%; 
@@ -395,7 +409,6 @@ ul.nav.navbar-nav {
   padding-left:5%;
   padding-bottom: 20px;
   position: relative;
-  /*top: -30px;*/
   }
 
 .nav-logo{
@@ -429,8 +442,8 @@ ul.nav.navbar-nav {
    }
 
 .navbar-inverse .navbar-nav > .active > a {
-    background: transparent;;
-   }  
+    background: transparent;
+   } 
 
 .nav li a:hover{
   text-shadow: 0 0 10px rgba(255,255,255,.3), 
@@ -474,171 +487,6 @@ iframe {
     min-height: 320px;
   }
 
-
-
-/*--------------------------
--------- NAVIGATION --------
---------------------------*/
-
-/*#navigation {
-  position: fixed;
-  width: 100%;
-  height: 75px;
-  background: #222;
-  box-shadow: 0px 1px 3px rgba(0,0,0,7);
-  z-index: 1000;
-  -webkit-transition: all 0.5s;
-  -moz-transition: all 0.5s;
-  transition: all 0.5s;
-  }*/
-
-/*.not-visible-nav{
-  top:-77px;
-  }
-
-.menu-position{ 
-  width: 95%; 
-  text-align:center; 
-  padding-left:5%;
-  }
-
-.nav-logo{
-  float: left;
-  position: relative;
-  top:0%;
-  -webkit-transform: translateY(-50%);
-  -moz-transform: translateY(-50%);
-  transform: translateY(-50%);
-  }
-
-.nav-logo a.logo{
-  display: block;
-  }
-
-.nav-logo a.logo img{
-  height: auto;
-  max-height: 65px;
-  -webkit-transition: all 1s;
-  -moz-transition: all 1s;
-  transition: all 1s;
-  margin-top: 70px;
-  }*/
-
-/* mobile navbar icon */
-/*#navigation .mini-nav-button{ 
-  display: none;
-  width: 40px;
-  height: 40px;
-  text-align: center;
-  font-size:20px;
-  font-weight: 600;
-  position: absolute;
-  z-index: 1000;
-  right:15px;
-  top:50%;
-  cursor: pointer;
-  -webkit-transform: translateY(-50%);
-  -moz-transform: translateY(-50%);
-  transform: translateY(-50%);
-  -webkit-font-smoothing: antialiased;
-  }
-
-.nav-fa{
-  color: #fff;
-  }
-
-.nav-menu{
-  font-family: 'Arvo', serif;
-  font-weight: bold;
-  float: right;
-  height: 100%;
-  }
-
-.nav-menu ul.nav{
-  height: 100%;
-  text-transform: uppercase;
-  }
-
-.nav li{
-  display: inline-block;
-  height: 100%;
-  text-transform: uppercase;
-  }
-
-.nav li a{
-  display: block;
-  height: 100%;
-  border-top:2px solid transparent;
-  border-bottom: 2px solid transparent;
-  line-height: 44px;
-  color: #3f4953;
-  color: #fff;
-  font-size: 12px;
-  -webkit-transition: all 0.3s;
-  -moz-transition: all 0.3s;
-  transition: all 0.3s;
-  -webkit-font-smoothing: antialiased;
-  }
-
-.nav li:hover{
-  background:transparent;
-  }*/
-
-/*.nav li a:hover{
- /* border-top: 2px solid #13a89e;*/
- /* border-top: 2px solid #763568;*/
- /* background: #3f4953;*/
-  /*border-bottom: 10px solid #763568;
-  background: #fff;
-  color: #3f4953;*/
-
-  /*text-shadow: 0 0 10px rgba(255,255,255,.3), 
-  0 0 20px rgba(255,255,255,.3), 
-  0 0 40px #00ffff , 
-  0 0 70px #00ffff , 
-  0 0 80px #00ffff , 
-  0 0 100px #00ffff , 
-  0 0 150px #00ffff ;
-  background: 080808;
-  
-  }*/
-
-/*.nav li.active a{
-  /*border-top: 2px solid #13a89e;*/
- /* border-top: 2px solid #763568;*/
- /* background-color: #eee;*/
-  /*background: #3f4953;*/
-  /*border-bottom: 10px solid #763568;
-  color: #fff;
-  background: #fff;
-  color: #3f4953;*/
-  /*text-shadow: 0 0 10px rgba(255,255,255,1), 
-  0 0 20px rgba(255,255,255,1), 
-  0 0 40px #00ffff , 
-  0 0 70px #00ffff , 
-  0 0 80px #00ffff , 
-  0 0 100px #00ffff , 
-  0 0 150px #00ffff ;
-  background: 080808;
-  }
-*/
-/*.nav li a:focus{
-  /*background: transparent !important;
-  border-top:2px solid #763568;
-  color:#3f4953;*/
-  /*background: #3f4953;
-  color: #fff;
-  background: #fff;
-  color: #3f4953;*/
-   /*text-shadow: 0 0 10px rgba(255,255,255,1) , 
-   0 0 20px rgba(255,255,255,1) , 
-   0 0 30px rgba(255,255,255,1) , 
-   0 0 40px #00ffff , 
-   0 0 70px #00ffff , 
-   0 0 80px #00ffff , 
-   0 0 100px #00ffff ;
-  }
-*/
 /*--------------------------
 --------- HOMEPAGE ---------
 --------------------------*/
@@ -950,7 +798,7 @@ a.btn.btn-header {
     transition: 0.3s all ease;
   }
 
-  .btn-submit:hover { color: #fff; background: #4e5965; }
+.btn-submit:hover { color: #fff; background: #4e5965; }
 
 /*--------------------------
 ---------- Planets -----------
@@ -962,7 +810,6 @@ a.btn.btn-header {
   min-height: 690px;
   max-height: 2500px;
   color: #3f4953;
-  padding-top: 20px;
   padding-bottom: 80px;
   }
 
@@ -1162,29 +1009,20 @@ height: 300px;
 
 #footer{
   font-family: 'Arvo', serif;
-  /*background:url(../img/footerbg.png);*/
-  background-repeat:repeat;
   background: #222;
   width: 100%;
   height: auto;
   min-height: 300px;
   max-height: 2000px;
-  border-top: 1px solid rgba(0 ,0,0, .3);
   color: #ffffff;
   padding-top: 70px;
+  border-top: 1px solid transparent;
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, .1);
   }
 
   #footer img {
     padding-bottom: 20px;
   }
-
-  /*.footer-logo {
-     background:url(img/logo-footer.png);
-  }
-
-  #footer a:hover {
-    background:url(img/logo-blue.png);
-  }*/
 
   .footer-icon{
   padding-right: 10px;

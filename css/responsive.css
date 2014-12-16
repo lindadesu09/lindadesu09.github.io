@@ -17,7 +17,7 @@
 	}
 
 	.navbar-collapse {
-		max-height: 360px;
+		max-height: 400px; /* increase the height of nav when collapse*/
 	}
 
 	.header-logo {
