@@ -90,11 +90,10 @@ li, ul {
 }
 
 .add-top{
-  padding-top:30px;
+  padding-top:40px;
 }
 
 .highlight-blue{
-  /*color: #00B4A6;*/
   text-shadow: 0 0 10px rgba(255,255,255, .3) , 
   0 0 20px rgba(255,255,255,.3) , 
   0 0 30px rgba(255,255,255,.3) , 
@@ -895,7 +894,7 @@ a.btn.btn-header {
   }
 
 #signs .list{
-  padding: 20px 10px;
+  padding: 20px 10px 20px 18px;
   cursor: pointer;
   }
 
@@ -974,7 +973,6 @@ height: 300px;
   font-weight: normal;
   line-height: 1;
   position: relative;
-  left: 47%;
   top: -40px;
   -webkit-transition: all 0.3s;
   -moz-transition: all 0.3s;
@@ -997,10 +995,10 @@ height: 300px;
 -- contact ---
 --------------------------*/
 
-#map-canvas {
-  width: 100%;
-  height: 500px;
-  background: #333;
+.btn-default:hover, .btn-default:focus, .btn-default:active, .btn-default.active {
+color: #fff;
+background-color: #222;
+border-color: #adadad;
 }
 
 /*--------------------------
@@ -1036,5 +1034,54 @@ height: 300px;
  text-shadow: 0 0 10px rgba(255,255,255,.3), 0 0 20px rgba(255,255,255,.3), 0 0 40px #00ffff;
 }
 
+.jumbotron {display: none;}
+
+/*----- Media Queries ------
+--------- MAX 768px --------
+--------------------------*/
+@media only screen and (max-width: 768px){
+  .navbar-header {
+    height: 80px;
+  }
+
+  .navbar-inverse .navbar-toggle {
+    position: relative;
+    top: 28px;
+  }
+
+  .navbar-collapse {
+    max-height: 400px; /* increase the height of nav when collapse*/
+  }
+
+  .header-logo {
+    position: relative;
+    top: -5px;
+  }
+
+  .contact-address { margin-top: 40px; }
+
+  #home {display: none;}
+  .jumbotron {display: block;}
+  
+}
+
+/*--------------------------
+--------- MAX 480px --------
+--------------------------*/
+
+@media only screen and (max-width: 480px){
+
+  .content h1 {
+    font-size: 3em;
+  }
+
+  .jumbo-logo {
+    max-width: 100%;
+    height: auto;
+  }
+
+  #home {display: none;}
+  .jumbotron {display: block;}
+}
 
   
